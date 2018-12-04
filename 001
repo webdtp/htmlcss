@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/uikit.css">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+    
+</head>
+<body>
+
+<a id="top">.</a>
+<h1 class="title">Smooth Scroll</h1>
+
+<div class="nav">
+<a href="#top">Kezdőlap</a>
+<a href="#section1">Szekció 1.</a>
+<a href="#section2">Szekció 2.</a>
+<a href="#section3">Szekció 3.</a>
+<a href="#section4">Szekció 4.</a>
+<a href="#footer">Footer</a>
+</div>
+
+<img src="imgs/hero.jpg" class="imgresp"><br><br>
+
+
+
+
+<a name="section1"></a>
+
+<h2  class="emptyrow">Szekció 1.</h2>  
+  <p>Dongue eget enim ultricies habitasse sapien tortor primis commodo nullam, neque iaculis interdum velit id nibh aptent porttitor praesent, ultricies pharetra senectus mauris cubilia ac integer curabitur.
+    Fusce phasellus et ad a non urna nulla mollis pretium, bibendum convallis praesent facilisis fames senectus sollicitudin proin eleifend, tempor nunc vitae velit commodo orci ultricies ante ligula ornare sociosqu in dolor risus aliquet molestie varius facilisis, eros aliquam augue viverra nisl faucibus urna amet.
+
+    A dictum convallis neque donec tincidunt sollicitudin nec quam venenatis euismod eleifend, fermentum sagittis varius viverra vestibulum pulvinar luctus ante nulla laoreet luctus, dictum tortor aliquet rutrum curabitur sed commodo etiam magna cubilia eleifend ut vel dolor convallis justo aenean, aliquet ultricies ac molestie leo, urna ornare consectetur fringilla lobortis.
+ </p>
+</div>
+
+    <a name="section2"></a>
+  <h2 class="emptyrow">Szekció 2.</h2>
+  <div class="uk-grid">
+      <div class="uk-width-1-2">
+          Fusce phasellus et ad a non urna nulla mollis pretium, bibendum convallis praesent facilisis fames senectus sollicitudin proin eleifend, tempor nunc vitae velit commodo orci ultricies ante ligula ornare sociosqu in dolor risus aliquet molestie varius facilisis, eros aliquam augue viverra nisl faucibus urna amet.
+
+          A dictum convallis neque donec tincidunt sollicitudin nec quam venenatis euismod eleifend, fermentum sagittis varius viverra vestibulum pulvinar luctus ante nulla laoreet luctus, dictum tortor aliquet rutrum curabitur sed commodo etiam magna cubilia eleifend ut vel dolor convallis justo aenean, aliquet ultricies ac molestie leo, urna ornare consectetur fringilla lobortis.
+      </div>
+      <div class="uk-width-1-2">
+          Lobortis habitant ultricies magna mattis ut eleifend et lacus lobortis, mollis nullam ac dapibus dolor ultricies fames dictum, malesuada suscipit mi enim ultricies est sapien at elit ultrices vestibulum curabitur. Tempus lacinia quisque facilisis fringilla dapibus vivamus dui, pretium venenatis nunc eros etiam convallis faucibus quisque, mollis curae quisque neque justo curabitur dictumst sapien curabitur nulla magna sapien, porta nulla fames nisi arcu, sit erat posuere commodo.
+          Fringilla mattis egestas scelerisque dapibus orci curae purus leo purus metus himenaeos rhoncus aenean sociosqu ut interdum quam ipsum euismod.
+      </div>
+ </div>
+
+
+<div class="uk-grid">
+    <div class="uk-width-3-4">
+      <a name="section3"></a>
+        <h2  class="emptyrow">Ez a szöveg címe (szekció 3.)</h2>
+      <img src="imgs/lake01.jpg" class="imgresp">
+      <p>Tempus lacinia quisque facilisis fringilla dapibus vivamus dui, pretium venenatis nunc eros etiam convallis faucibus quisque, mollis curae quisque neque justo curabitur dictumst sapien curabitur nulla magna sapien, porta nulla fames nisi arcu, sit erat posuere commodo.</p>
+    </div>
+    <div class="uk-width-1-4">
+      <h3 class="emptyrow">Widget 1</h3>
+      <p>Lobortis habitant ultricies magna mattis ut eleifend</p>
+      <h3>Widget 2</h3>
+      <p>Lobortis habitant ultricies magna mattis ut eleifend</p>
+      <h3>Widget 3</h3>
+      <div class="uk-alert uk-alert-warning">Felhívás! Tisztelt internetező, felhívjuk figyelmedet, hogy június 5-től az internet-kapcsolat delutan 4 óráig szünetel.</div>
+    </div>
+    
+</div>
+<hr>
+
+<a name="section4"></a>
+<h2  class="emptyrow">Szekció 4.</h2>
+<div class="uk-inline">
+    <button class="uk-button uk-button-default" type="button">Click</button>
+    <div uk-drop="mode: click">
+        <div class="uk-card uk-card-body uk-card-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+    </div>
+</div>
+
+<button class="uk-button uk-button-default" type="button">Hover menü</button>
+<div uk-dropdown>
+    <ul class="uk-nav uk-dropdown-nav">
+        <li class="uk-active"><a href="#">Active</a></li>
+        <li><a href="#">Item</a></li>
+        <li class="uk-nav-header">Header</li>
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+        <li class="uk-nav-divider"></li>
+        <li><a href="#">Item</a></li>
+    </ul>
+</div>
+
+    <hr class="uk-divider-icon">
+
+<a name="footer"></a>
+<h2  class="emptyrow">Footer</h2>
+<div class="uk-grid">
+    <div class="uk-width-1-3">
+            <i class="fas fa-kiwi-bird fa-3x"></i><br>
+        Fusce phasellus et ad a non urna nulla mollis pretium, bibendum convallis praesent facilisis fames senectus sollicitudin proin eleifend, tempor nunc vitae velit commodo orci ultricies ante ligula ornare sociosqu in dolor risus aliquet molestie varius facilisis, eros aliquam augue viverra nisl faucibus urna amet.
+    </div>
+    <div class="uk-width-1-3">
+            <i class="fas fa-tree fa-3x"></i><br>
+        Lobortis habitant ultricies magna mattis ut eleifend et lacus lobortis, mollis nullam ac dapibus dolor ultricies fames dictum, malesuada suscipit mi enim ultricies est sapien at elit ultrices vestibulum curabitur. Tempus lacinia quisque facilisis fringilla dapibus vivamus dui, pretium venenatis nunc eros e.
+    </div>
+    <div class="uk-width-1-3">
+            <i class="fas fa-spa fa-3x"></i><br>
+        Congue eget enim ultricies habitasse sapien tortor primis commodo nullam, neque iaculis interdum velit id nibh aptent porttitor praesent, ultricies pharetra senectus mauris cubilia ac integer curabitur.
+    </div>
+</div>
+<hr>
+
+<center><a href="#top"><i class="fas fa-arrow-alt-circle-up fa-2x"></i></a></center>
+
+
+</body>
+</html>
